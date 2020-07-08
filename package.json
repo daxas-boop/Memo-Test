@@ -1,0 +1,27 @@
+{
+  "name": "memotest",
+  "version": "1.0.0",
+  "description": "Juego de memotest",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress-dev": "cypress open",
+    "cypress-run": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daxas-boop/Memotest.git"
+  },
+  "author": "daxas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daxas-boop/Memotest/issues"
+  },
+  "homepage": "https://github.com/daxas-boop/Memotest#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.0"
+  },
+  "devDependencies": {
+    "cypress": "^4.9.0"
+  }
+}
