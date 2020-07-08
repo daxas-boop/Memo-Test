@@ -1,0 +1,118 @@
+<style>
+    .oculto{
+      display: none;
+    }
+    .cuadro{
+      border: 1px solid black;
+      height: 100px;
+      opacity: 0;
+      transition: opacity 0.5s;
+      cursor: pointer;
+    }
+    .btn{
+      margin-top: 10px;
+    }
+    h1{
+      color: black;
+      
+    }
+    .fila{
+      height: 25vh;
+    }
+    .columna{
+      border: 1px solid black;
+    }
+    .red{
+      background-color: red;
+    }
+    .blue{
+      background-color: blue;
+    }
+    .pink{
+      background-color: pink;
+    }
+    .yellow{
+      background-color: yellow;
+    }
+    .lb{
+      background-color: lightblue;
+    }
+    .green{
+      background-color: green;
+    }
+    .orange{
+      background-color:orange;
+    }
+    .violet{
+      background-color: violet;
+    }
+    .black{
+      background-color: black;
+    }
+</style>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Memotest</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+  
+
+
+<div id="tablero">
+  <div class="container-fluid h-100">
+    <div class="row fila">
+      <div class="col columna">
+        <div class="cuadro h-100"></div></div>
+      <div class="col columna">
+        <div class="cuadro h-100"></div></div>
+       <div class="col columna">
+        <div class="cuadro h-100"></div></div>
+      <div class="col columna">
+        <div class="cuadro h-100"></div></div>
+    </div>
+
+    <div class="row fila">
+      <div class="col columna">
+        <div class="cuadro h-100"></div></div>
+      <div class="col columna">
+        <div class="cuadro h-100"></div></div>
+      <div class="col columna">
+        <div class="cuadro h-100"></div></div>
+      <div class="col columna">
+        <div class="cuadro h-100"></div></div>
+    </div>
+
+    <div class="row fila">
+      <div class="col columna">
+        <div class="cuadro h-100"></div></div>
+      <div class="col columna">
+        <div class="cuadro h-100"></div></div>
+      <div class="col columna">
+        <div class="cuadro h-100"></div></div>
+      <div class="col columna">
+        <div class="cuadro h-100"></div></div>
+    </div>
+
+    <div class="row fila">
+      <div class="col columna">
+        <div class="cuadro h-100"></div></div>
+      <div class="col columna">
+        <div class="cuadro h-100"></div></div>
+      <div class="col columna">
+        <div class="cuadro h-100"></div></div>
+      <div class="col columna">
+        <div class="cuadro h-100"></div></div>
+    </div> 
+  </div>
+</div>
+
+<div><h1 class="oculto" id="intentos"></h1></div>
+
+    <script src='src/main.js'></script>
+</body>
+</html>
