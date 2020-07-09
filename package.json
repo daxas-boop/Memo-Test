@@ -19,7 +19,8 @@
   },
   "homepage": "https://github.com/daxas-boop/Memotest#readme",
   "dependencies": {
-    "bootstrap": "^4.5.0"
+    "bootstrap": "^4.5.0",
+    "http-server": "^0.12.3"
   },
   "devDependencies": {
     "cypress": "^4.9.0"
